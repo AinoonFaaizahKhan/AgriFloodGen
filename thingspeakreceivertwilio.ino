@@ -6,15 +6,15 @@
 #include <base64.h>   // For encoding SID:AUTH into base64
 
 // ---------------- Wi-Fi & ThingSpeak ----------------
-const char* WIFI_SSID = "iPhone";
-const char* WIFI_PASSWORD = "faizuu22$";
-const char* THINGSPEAK_FEEDS_URL = "https://api.thingspeak.com/channels/3091612/feeds/last.json?api_key=ZXIT7DCEP7ZT3XW0";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
+const char* THINGSPEAK_FEEDS_URL = "";
 
 // ---------------- Twilio Credentials ----------------
-const char* TWILIO_SID = "AC6c0e0857da924a14dd7f9e68f79c4806";
-const char* TWILIO_AUTH = "6b64532be70d65c34ab69b7a77fdc17e";
-const char* TWILIO_FROM = "+15673721071";   // Twilio number
-const char* MY_PHONE = "+919489364063";      // Your phone number
+const char* TWILIO_SID = "";
+const char* TWILIO_AUTH = "";
+const char* TWILIO_FROM = "";   // Twilio number
+const char* MY_PHONE = "";      // Your phone number
 
 // ---------------- Hardware Pins ----------------
 #define GREEN_LED 25
