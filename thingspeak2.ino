@@ -5,10 +5,10 @@
 #include <HTTPClient.h>
 
 // ---------------- WiFi & ThingSpeak ----------------
-const char* WIFI_SSID = "iPhone";
-const char* WIFI_PASSWORD = "faizuu22$";
-String THINGSPEAK_API_KEY = "MY19VZ0T8MJYE3YM"; 
-String THINGSPEAK_SERVER = "http://api.thingspeak.com/update";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
+String THINGSPEAK_API_KEY = ""; 
+String THINGSPEAK_SERVER = "";
 
 // ----------------- Pin Config -----------------
 #define DHTPIN 4
